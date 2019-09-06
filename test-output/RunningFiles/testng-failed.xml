@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RunningFiles]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="org.atmecs.utils.flight_ticket.Edit">
+        <methods>
+          <include name="edit" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.atmecs.utils.flight_ticket.Edit -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="org.atmecs.utils.roundtrip.Edit">
+        <methods>
+          <include name="edit" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.atmecs.utils.roundtrip.Edit -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [RunningFiles] -->

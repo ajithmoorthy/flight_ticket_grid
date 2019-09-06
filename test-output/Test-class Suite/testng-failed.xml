@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test-class Suite]" parallel="tests">
+  <test thread-count="2" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="org.atmecs.utils.roundtrip.Edit">
+        <methods>
+          <include name="price" invocation-numbers="0"/>
+          <include name="edit" invocation-numbers="0"/>
+          <include name="flightticket" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.atmecs.utils.roundtrip.Edit -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->

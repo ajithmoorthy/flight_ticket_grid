@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite2" duration-ms="51066" started-at="2019-09-06T20:13:37 IST" finished-at="2019-09-06T20:14:28 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51066" started-at="2019-09-06T20:13:37 IST" finished-at="2019-09-06T20:14:28 IST">
+      <class name="org.atmecs.utils.flight_ticket.Edit">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.atmecs.utils.flight_ticket.Edit@65e2dbf3]" name="setup" is-config="true" duration-ms="8965" started-at="2019-09-06T20:13:37 IST" finished-at="2019-09-06T20:13:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="flightticket(java.lang.String, java.lang.String)[pri:0, instance:org.atmecs.utils.flight_ticket.Edit@65e2dbf3]" name="flightticket" duration-ms="22667" started-at="2019-09-06T20:13:47 IST" data-provider="data" finished-at="2019-09-06T20:14:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightticket -->
+        <test-method status="PASS" signature="price(java.lang.String, java.lang.String)[pri:1, instance:org.atmecs.utils.flight_ticket.Edit@65e2dbf3]" name="price" duration-ms="7098" started-at="2019-09-06T20:14:10 IST" data-provider="select" finished-at="2019-09-06T20:14:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8056767529]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ajith@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- price -->
+        <test-method status="PASS" signature="edit(java.lang.String, java.lang.String)[pri:2, instance:org.atmecs.utils.flight_ticket.Edit@65e2dbf3]" name="edit" duration-ms="10992" started-at="2019-09-06T20:14:17 IST" data-provider="edit" finished-at="2019-09-06T20:14:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[moorthy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+      </class> <!-- org.atmecs.utils.flight_ticket.Edit -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite2 -->
+</testng-results>
